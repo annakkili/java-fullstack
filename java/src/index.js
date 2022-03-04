@@ -1,14 +1,12 @@
 import React from 'react'
 import ReactDom from 'react-dom'
-import Jfs2, { Jfs } from './javas'
+import { Friends } from './gce'
+
 ReactDom.render( <
     >
     <
-    h1 > hi Annakkili < /h1>  <
-    p > welcome zealous < /p> <
-    Jfs / >
-    <
-    Jfs2 / >
+    h1 > Fav About me < /h1>  <
+    Friends / >
     <
     />, document.getElementById('root')
 )
